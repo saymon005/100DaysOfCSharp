@@ -11,7 +11,9 @@ namespace Day2_DataType
         static void Main(string[] args)
         {
             int a = 5;
+            double b = 5.5;
             Console.WriteLine(a);
+            Console.WriteLine(b);
             Console.ReadLine();
         }
     }
