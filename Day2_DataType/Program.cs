@@ -18,6 +18,7 @@ namespace Day2_DataType
             decimal f = 5.5M;
             bool g = true;
             string s = "Hello"
+            int x = (int) 5.55;
             Console.WriteLine(a);
             Console.WriteLine(b);
             Console.WriteLine(c);
