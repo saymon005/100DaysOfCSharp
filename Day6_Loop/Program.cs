@@ -12,29 +12,29 @@ namespace Day6_Loop
         {
             
             int i = 1; //initialization
-            //while (i <= 10)   //condition
-            //{
-            //    Console.WriteLine(i);
-            //    i++;  // update
-            //}
+            while (i <= 10)   //condition
+            {
+                Console.WriteLine(i);
+                i++;  // update
+            }
 
-            
 
-            //for (i = 1; i <= 10; i++)
-            //{
-            //    Console.WriteLine(i);
-            //}
 
-            //i = 1;
-            //do
-            //{
-            //    Console.WriteLine(i);
-            //    i++;
-            //}while (i <= 10);
+            for (i = 1; i <= 10; i++)
+            {
+                Console.WriteLine(i);
+            }
+
+            i = 1;
+            do
+            {
+                Console.WriteLine(i);
+                i++;
+            } while (i <= 10);
 
             // Nested loop
 
-            for(i = 10; i>=1; i--)
+            for (i = 10; i>=1; i--)
             {
                 for(int j = i; j >=1; j--)
                 {
