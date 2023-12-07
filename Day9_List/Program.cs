@@ -29,7 +29,7 @@ namespace Day9_List
             List<List<int>> studentGrades = new List<List<int>>()
             {
                 new List<int> { 1, 2, 3 },
-                new List<int> { 4, 5, 6 },
+                new List<int> { 4, 8, 7 },
                 new List<int> { 7, 8, 9 }
             };
             foreach (List<int> grades in studentGrades)
